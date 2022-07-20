@@ -1,3 +1,11 @@
-@import 'reset.css' .alert {
+@import 'reset.css';
+.alert {
+    position: fixed;
+    padding: 1rem;
+    top: 15%;
+    max-width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: tomato;
+    border-radius: 10px;
 }
